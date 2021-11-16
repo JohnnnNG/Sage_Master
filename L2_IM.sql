@@ -7,9 +7,13 @@ INSERT INTO [STG].[L2_TB_IM]
 (
 Date,
 Cost,
-Time
+Time,
+Hello,
+D888
 )
 SELECT 
 Date  as CreationDate,
 CASE WHEN Cost > 10000 THEN N ELSE Y as TotalCost,
 Time as ReceivedTime
+Hello as Hi
+D888 as Gittt
