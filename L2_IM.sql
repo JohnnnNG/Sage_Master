@@ -10,6 +10,7 @@ Cost,
 Time,
 Hello,
 D888
+HongKonger
 )
 SELECT 
 Date  as CreationDate,
@@ -17,3 +18,4 @@ CASE WHEN Cost > 10000 THEN N ELSE Y as TotalCost,
 Time as ReceivedTime
 Hello as Hi
 D888 as Gittt
+HongKonger as HKer
